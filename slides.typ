@@ -44,7 +44,9 @@
 
 
 #slide(title: "Client-Server Federated Learning")[
-
+  #figure(
+    image("imgs/federated-learning-schema.svg", width: 50%)
+  )
 ]
 
 
@@ -58,7 +60,9 @@
 ]
 
 #slide(title: "Towards peer-to-peer Federated Learning")[
-
+  #figure(
+    image("imgs/federated-learning-schema-p2p.svg", width: 50%)
+  )
 ]
 
 #slide(title: "More on non-iid data")[
