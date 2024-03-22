@@ -85,12 +85,31 @@
 ]
 
 #slide(title: "Full peer-to-peer learning")[
-
+  ```scala
+  rep(init() )(model => { // Local model initialization
+    // 1. Local training
+    model.evolve(localEpochs)
+    // 2. Model sharing
+    val info = foldhood(Set(model))(_ ++ _)(nbr(model))
+    // 3. Model aggregation
+    aggregation(info)
+  })
+  ```  
 ]
 
-
 #slide(title: "Learning in zones")[
-
+  ```scala
+  val aggregators = S(area, nbrRange) // Dynamic aggregator selection
+  rep(init())(model => { // Local model initialization
+    model.evolve() // 1. Local training step
+    val pot = gradient(aggregators) // Potential field for model sharing
+    // 2. model sharing
+    val info = C[Double, Set[Model]](pot, _ ++ _, Set(model), Set.empty)
+    val aggregateModel = aggregation(info) // 3. Aggregation
+    sharedModel = broadcast(aggregators, aggregateModel) // 4. Gossiping
+    mux(impulsesEvery(epochs)){ combineLocal(sharedModel, model) } { model }
+  })
+  ```
 ]
 
 #new-section-slide("Experiments")
