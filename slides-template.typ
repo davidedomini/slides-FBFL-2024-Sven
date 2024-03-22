@@ -22,55 +22,87 @@
 )
 
 #title-slide(
-  title: "Slide Title",
-  subtitle: "Subtitle",
-  author: "Author Name",
+  title: "Field Based Federated Learning",
+  subtitle: "",
+  author: "Davide Domini",
   date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
-#new-section-slide("Slide section 1")
+#new-section-slide("Background on Federated Learning")
 
-#slide(title: "Slide")[
-  *Bold* and _italic_ text.
-  
-  This is a citiation @nicolas_farabegoli_2024_10535841.
+#slide(title: "What Federated Learning is?")[
 
-  #alert[
-    This is an alert.
-  ]
 ]
 
-#slide(title: "Code slide")[
-  ```kotlin
-  fun main() {
-      println("Hello, world!")
+#slide(title: "Why do we need Federated Learning?")[
 
-      for (i in 0..9) {
-          println(i)
-      }
-      println("Goodbye, world!")
-  }
-  ```
 ]
 
-#slide[
-  = This is a title
+#slide(title: "Classic approaches")[
 
-  #lorem(24)
-
-  == This is a subtitle
-
-  #lorem(34)
 ]
 
-#slide[
 
-  == Icon in a title #fa-java()
+#slide(title: "Client-Server Federated Learning")[
 
-  #fa-icon("github", fa-set: "Brands") -- Github icon
-
-  #fa-icon("github", fa-set: "Brands", fill: blue) -- Github icon blue fill
 ]
+
+
+#slide(title: "How can we aggregate weights?")[
+
+]
+
+
+#slide(title: "Problems")[
+
+]
+
+#slide(title: "Towards peer-to-peer Federated Learning")[
+
+]
+
+#slide(title: "More on non-iid data")[
+ 
+]
+
+#slide(title: "How can we address data heterogeneity?")[
+
+]
+
+
+#new-section-slide("Field based coordination for Federated Learning")
+
+#slide(title: "Why field based coordination?")[
+
+]
+
+#slide(title: "(Semi)Formal problem definition")[
+
+]
+
+#slide(title: "Advantages")[
+
+]
+
+#slide(title: "Full peer-to-peer learning")[
+
+]
+
+
+#slide(title: "Learning in zones")[
+
+]
+
+#new-section-slide("Experiments")
+
+#slide(title: "MNIST and FASHION MNIST")[
+
+]
+
+#slide(title: "PM10 Air Quality")[
+
+]
+
 
 #slide[
   #bibliography("bibliography.bib")
