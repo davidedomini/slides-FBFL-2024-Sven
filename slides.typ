@@ -31,47 +31,46 @@
 
 #slide(title: "Computation everywhere")[
   #figure(
-        image("imgs/uc-sven.svg", width: 50%)
-      )
-]
-
-#slide(title: "What Federated Learning is?")[
-
-]
-
-#slide(title: "Why do we need Federated Learning?")[
-
-]
-
-#slide(title: "Classic approaches")[
-
-]
-
-
-#slide(title: "Client-Server Federated Learning")[
-  #figure(
-    image("imgs/federated-learning-schema.svg", width: 50%)
+    image("imgs/uc-sven.svg", width: 50%)
   )
 ]
 
 
-#slide(title: "How can we aggregate weights?")[
-
+#slide(title: "Example: Google Virtual Keyboard")[
+  #table(inset: 1em, stroke: none, columns: (1fr, 1fr), align: (left, left),
+    [
+      - *Task*: Next word prediction for GBoard
+      - *Problem*: Users' privacy
+      - *Solution*: Share weights not data
+    ],
+    [
+      #figure(
+        image("imgs/keyboard.svg", width: 70%)
+      )
+    ]  
+  )
 ]
 
 
-#slide(title: "Problems")[
+#slide(title: "What Federated Learning is?")[
+ #figure(
+    image("imgs/federated-learning-schema.svg", width: 50%)
+  )
+]
 
+#slide(title: "Advantages & disadvantages")[
+  - *Advantages*
+    - a
+    - b
+  - *Disadvantages*
+    - c
+    - d
 ]
 
 #slide(title: "Towards peer-to-peer Federated Learning")[
   #figure(
     image("imgs/federated-learning-schema-p2p.svg", width: 50%)
   )
-]
-
-#slide(title: "More on non-iid data")[
- 
 ]
 
 #slide(title: "How can we address data heterogeneity?")[
