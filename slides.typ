@@ -29,18 +29,10 @@
 
 #new-section-slide("Background on Federated Learning")
 
-#slide(title: "Reference scenario")[
-  #table(inset: 1em, stroke: none, columns:(1fr, 1fr), align: (left, left),
-    [
-      here some text
-    ],
-    [
-      #figure(
-        image("imgs/iot2.jpg", width: 100%)
+#slide(title: "Computation everywhere")[
+  #figure(
+        image("imgs/uc-sven.svg", width: 50%)
       )
-    ]
-  )
-
 ]
 
 #slide(title: "What Federated Learning is?")[
