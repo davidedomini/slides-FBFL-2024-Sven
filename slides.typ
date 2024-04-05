@@ -68,11 +68,12 @@
 
 #slide(title: "Advantages & disadvantages")[
   - *Advantages*
-    - a
-    - b
+    - Reduces privacy concerns
+    - Transfers less data to the server
   - *Disadvantages*
-    - c
-    - d
+    - Need for a central trusted entity
+    - Single point of failure
+    - Data heterogeneity (non-iid data)
 ]
 
 #slide(title: "Towards peer-to-peer Federated Learning")[
