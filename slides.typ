@@ -39,7 +39,7 @@
 #slide(title: "Example: Google Virtual Keyboard")[
   #table(inset: 1em, stroke: none, columns: (1fr, 1fr), align: (left, left),
     [
-      - *Task*: Next word prediction for GBoard
+      - *Task*: Next word prediction for GBoards
       - *Problem*: Users' privacy
       - *Solution*: Share weights not data
     ],
@@ -56,6 +56,14 @@
  #figure(
     image("imgs/federated-learning-schema.svg", width: 50%)
   )
+]
+
+#slide(title: "How can we aggregate local models?")[
+
+  $ w_(t+1) = 
+    &sum_(k=1)^K n_k / N w_(t+1)^k
+  $
+
 ]
 
 #slide(title: "Advantages & disadvantages")[
