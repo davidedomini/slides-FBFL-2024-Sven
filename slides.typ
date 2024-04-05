@@ -66,11 +66,11 @@
 
 ]
 
-#slide(title: "Advantages & disadvantages")[
-  - *Advantages*
+#slide(title: "Pros & Cons")[
+  - *Pros*
     - Reduces privacy concerns
     - Transfers less data to the server
-  - *Disadvantages*
+  - *Cons*
     - Need for a central trusted entity
     - Single point of failure
     - Data heterogeneity (non-iid data)
