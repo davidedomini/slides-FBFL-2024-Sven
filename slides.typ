@@ -60,9 +60,9 @@
 
 #slide(title: "How can we aggregate local models?")[
 
-  $ w_(t+1) = 
-    &sum_(k=1)^K n_k / N w_(t+1)^k
-  $
+  #figure(
+    image("imgs/fedavg.svg", width: 50%)
+  )
 
 ]
 
