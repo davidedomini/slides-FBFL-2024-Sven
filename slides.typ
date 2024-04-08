@@ -133,16 +133,6 @@
   ```
 ]
 
-#new-section-slide("Experiments")
-
-#slide(title: "MNIST and FASHION MNIST")[
-
-]
-
-#slide(title: "PM10 Air Quality")[
-
-]
-
 #new-section-slide("Future Work")
 
 #slide(title: "What's next?")[
