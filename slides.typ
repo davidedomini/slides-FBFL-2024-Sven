@@ -94,7 +94,10 @@
 #new-section-slide("Field based coordination for Federated Learning")
 
 #slide(title: "Why field based coordination?")[
-
+  - seamlessly transition between fully centralized and fully decentralized aggregation methods
+  - global-level system behaviour can be captured declaratively, with automatic translation into single-device local behaviour
+  - This method enables dynamic, efficient model aggregation without a centralized authority
+  - enables the learning processes to dynamically conform to changes in network topology, effectively eliminating reliance on centralized coordination points
 ]
 
 #slide(title: "(Semi)Formal problem definition")[
