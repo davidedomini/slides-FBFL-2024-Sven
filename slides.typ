@@ -83,7 +83,11 @@
 ]
 
 #slide(title: "How can we address data heterogeneity?")[
-
+  - Adding a regularization term to classic FL algorithms
+  - *Personalized* Federated Learning
+    - *Cluster level*
+    - Client level
+    - Graph level
 ]
 
 
