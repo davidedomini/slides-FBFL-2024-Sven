@@ -23,7 +23,7 @@
 #title-slide(
   title: "Field Based Federated Learning",
   subtitle: "",
-  author: "Davide Domini",
+  author: "Davide Domini, PhD Student @ UNIBO",
   date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
