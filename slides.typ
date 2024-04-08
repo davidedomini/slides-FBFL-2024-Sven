@@ -143,6 +143,13 @@
 
 ]
 
+#new-section-slide("Future Work")
+
+#slide(title: "What's next?")[
+  - More exploration with non-iid data
+  - Space fluidity
+  - Sparse neural networks for low resource settings
+]
 
 #slide[
   #bibliography("bibliography.bib")
