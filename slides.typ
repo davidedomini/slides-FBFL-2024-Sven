@@ -164,8 +164,20 @@
   ```
 ]
 
+#let adv = box[ #figure(
+    image("imgs/checkmark.svg", width: 2%)
+  )]
+
 #slide(title: "Advantages")[
  
+ #adv Dynamic number of clusters
+
+ #adv Supports both peer-to-peer interactions and the formation of specialized model zones
+
+ #adv Enables dynamic model aggregation without a centralized authority
+
+ #adv Exploits spatial distribution of the devices
+
 ]
 
 #new-section-slide("Future Work")
