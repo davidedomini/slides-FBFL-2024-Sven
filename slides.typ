@@ -172,7 +172,7 @@
  
  #adv Dynamic number of clusters
 
- #adv Supports both peer-to-peer interactions and the formation of specialized model zones
+ #adv Supports both peer-to-peer interactions and the formation of specialized zones
 
  #adv Enables dynamic model aggregation without a centralized authority
 
