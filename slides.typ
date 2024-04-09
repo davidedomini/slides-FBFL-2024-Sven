@@ -81,7 +81,7 @@
     [
       #fa-icon("square-check", fa-set: "Regular") Reduces privacy concerns
 
-      #emoji.checkmark.box Transfers less data to the server
+      #emoji.checkmark.box Transfers less data to the server #fa-icon("java", fa-set: "Brands")
     ],
     [
       #emoji.crossmark Need for a central trusted entity
