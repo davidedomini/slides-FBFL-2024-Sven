@@ -1,5 +1,7 @@
 #import "@preview/polylux:0.3.1": *
 #import "@preview/fontawesome:0.1.0": *
+#import emoji: crossmark
+#import emoji: checkmark
 
 #import themes.metropolis: *
 
@@ -73,14 +75,31 @@
 
 ]
 
+#let check = box[ #figure(
+    image("imgs/checkmark.svg", width: 6%)
+  )]
+
+#let cross = box[ #figure(
+    image("imgs/crossmark.svg", width: 6%)
+  )]
+
 #slide(title: "Pros & Cons")[
-  - *Pros*
-    - Reduces privacy concerns
-    - Transfers less data to the server
-  - *Cons*
-    - Need for a central trusted entity
-    - Single point of failure
-    - Data heterogeneity (non-iid data)
+
+  #table(inset: 1em, stroke: none, columns: (1fr, 1fr), align: (left, left),
+    [
+      #check Reduces privacy concerns
+
+      #check Transfers less data to the server
+    ],
+    [
+      #cross Need for a central trusted entity
+
+      #cross Single point of failure
+
+      #cross Data heterogeneity 
+    ]  
+  )
+
 ]
 
 #slide(title: "Towards peer-to-peer Federated Learning")[
@@ -112,7 +131,7 @@
 ]
 
 #slide(title: "Advantages")[
-
+ 
 ]
 
 #slide(title: "Full peer-to-peer learning")[
