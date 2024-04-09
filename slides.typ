@@ -27,6 +27,12 @@
   date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
+#slide(title: "Main research areas")[
+  - Multi Agent Reinforcement Learning 
+    - ScaRLib @DominiCAV23
+  - *Field-based Coordination for Federated Learning*
+]
+
 #new-section-slide("Background on Federated Learning")
 
 #slide(title: "Computation everywhere")[
