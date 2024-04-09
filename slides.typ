@@ -79,7 +79,7 @@
 
   #table(inset: 1em, stroke: none, columns: (1fr, 1fr), align: (left, left),
     [
-      #emoji.checkmark.box Reduces privacy concerns
+      #fa-icon("square-check", fa-set: "Regular") Reduces privacy concerns
 
       #emoji.checkmark.box Transfers less data to the server
     ],
