@@ -30,7 +30,8 @@
 #slide(title: "Main research areas")[
   - Multi Agent Reinforcement Learning 
     - ScaRLib @DominiCAV23
-  - *Field-based Coordination for Federated Learning*
+  - Personalization in Federated Learning
+    - *Field-based Coordination for Federated Learning*
 ]
 
 #new-section-slide("Background on Federated Learning")
