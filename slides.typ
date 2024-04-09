@@ -40,7 +40,7 @@
 
 #slide(title: "Computation everywhere")[
   #figure(
-    image("imgs/uc-sven.svg", width: 50%)
+    image("imgs/uc.svg", width: 65%)
   )
 ]
 
