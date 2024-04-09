@@ -120,9 +120,12 @@
 #new-section-slide("Field based coordination for Federated Learning")
 
 #slide(title: "Why field based coordination?")[
-  - Global-level system behaviour captured declaratively and automatic translated into single-device local behaviour
+  - Global-level system behaviour captured declaratively 
+
   - Seamlessly transition between fully centralized and fully decentralized aggregation methods
-  - Coordination mechanisms to take into account spatial distribution of devices and local communications
+
+  - Coordination mechanisms to take into account spatial distribution of devices
+  
   - Benefits of semantically similar knowledge among nearby devices
 ]
 
