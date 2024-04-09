@@ -134,6 +134,7 @@
  
 ]
 
+
 #slide(title: "Full peer-to-peer learning")[
   ```scala
   rep(init() )(model => { // Local model initialization
@@ -145,6 +146,14 @@
     aggregation(info)
   })
   ```  
+]
+
+#slide(title:"SCR Pattern for Federated Learning")[
+
+    #figure(
+      image("imgs/FL-SCR.svg", width: 110%)
+    )
+ 
 ]
 
 #slide(title: "Learning in zones")[
