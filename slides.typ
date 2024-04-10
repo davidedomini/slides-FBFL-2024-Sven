@@ -33,7 +33,7 @@
   - Multi Agent Reinforcement Learning 
     - ScaRLib @DominiCAV23
   - Personalization in Federated Learning
-    - *Field-based Coordination for Federated Learning*
+    - #underline[*Field-based Coordination for Federated Learning*]
 ]
 
 
