@@ -36,6 +36,7 @@
     - *Field-based Coordination for Federated Learning*
 ]
 
+
 #new-section-slide("Background on Federated Learning")
 
 #slide(title: "Computation everywhere")[
@@ -43,7 +44,6 @@
     image("imgs/uc.svg", width: 65%)
   )
 ]
-
 
 #slide(title: "Example: Google Virtual Keyboard")[
   #table(inset: 1em, stroke: none, columns: (1fr, 1fr), align: (left, left),
@@ -59,7 +59,6 @@
     ]  
   )
 ]
-
 
 #slide(title: "What Federated Learning is?")[
  #figure(
@@ -110,8 +109,8 @@
 
 #slide(title: "How can we address data heterogeneity?")[
   - Adding a regularization term to classic FL algorithms @scaffold @fedprox
-  - *Personalized* Federated Learning
-    - *Cluster level* @hcfl @ecfl @tapfl
+  - #underline[*Personalized*] Federated Learning
+    - #underline[*Cluster level*] @hcfl @ecfl @tapfl
     - Client level @atldd @dasbct @dalba
     - Graph level @fedu @pflwg @9832778
 ]
@@ -128,7 +127,6 @@
   
   - Benefits of semantically similar knowledge among nearby devices
 ]
-
 
 
 #slide(title: "Full peer-to-peer learning")[
