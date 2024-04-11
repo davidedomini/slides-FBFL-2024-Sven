@@ -29,11 +29,14 @@
   date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
-#slide(title: "Main research areas")[
-  - Multi Agent Reinforcement Learning 
-    - ScaRLib @DominiCAV23
-  - Personalization in Federated Learning
-    - #underline[*Field-based Coordination for Federated Learning*]
+#slide(title: "About me")[
+  - Education
+    - MSc (2023) and BSc (2021) in Computer Science and Engineering
+  - Main research areas
+    - Multi Agent Reinforcement Learning 
+      - ScaRLib @DominiCAV23
+    - Personalization in Federated Learning
+      - #underline[*Field-based Coordination for Federated Learning*]
 ]
 
 
