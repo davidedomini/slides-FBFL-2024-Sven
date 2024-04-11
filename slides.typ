@@ -22,11 +22,19 @@
   width: 100%,
 )
 
+#let author = box[
+  #table(inset: 0.5em, stroke: none, columns: (1fr, auto),  align: (left, right),
+    [*Davide Domini*], [davide.domini\@unibo.it],
+    [PhD Student \@ UNIBO]
+  )
+]
+
+
 #title-slide(
   title: "Field Based Federated Learning",
   subtitle: "",
-  author: "Davide Domini, PhD Student @ UNIBO",
-  date: datetime.today().display("[day] [month repr:long] [year]"),
+  author: author,
+  //date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
 #slide(title: "About me")[
